@@ -1,0 +1,222 @@
+@media (min-width: 840px) {
+    .nav-o{
+        display: none;
+    }
+    .desktop-mo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(253, 248,238);
+        padding: 15px;
+    }
+    .desktop-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+      ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        list-style: none;
+        gap: 2em;
+      }
+      a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        align-items: center;
+        gap: 9px;
+      }
+      .desktop-button{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        background-color: rgb(77, 44,94);
+      }
+      .hero{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+      }
+      .hero-mama{
+        text-align: left;
+        background-color: rgb(253, 248,238);
+        padding: 10px;
+        /* background-image: url(./images/WhatsApp_Image_2024-09-14_at_17.59.00_7e53526f-removebg-preview.png); */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        /* opacity: 1; */
+        /* margin-bottom: 4em; */
+        /* transform: translateX(50%); */
+      }
+      .input-flex{
+        align-items: start;
+        flex-direction: row;
+        justify-content: left;
+        border-radius: 10px;
+      }
+      .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .senior-ij{
+        flex-direction: row ;
+        padding: 15px;
+        position: absolute;
+        margin-left: 4em;
+        margin-right: 4em;
+        border-radius: 10px;
+        top: -1.5em;
+        /* z-index: -1; */
+        /* transform: translatey(59%); */
+      }
+      .won-ja{
+        position: relative;
+      }
+
+      .yau{
+        position: relative;
+      }
+      .glass{
+        position: absolute;
+        transform: translate(146%,29%);
+        bottom: 22em;
+        left: 19em;
+        overflow: hidden;
+        /* top: -1em; */
+      }
+      input{
+        padding: 15px;
+        border-radius: 5px;
+        width: 300px;
+      }
+      .services{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5em;
+        margin-top: 3em;
+        /* overflow: hidden; */
+        /* justify-content: space-around; */
+        align-items: center;
+        /* gap: 0; */
+        /* z-index: -1; */
+      }
+      .line img{
+        display: block;
+        width: 200px;
+      }
+      .kk-2{
+        text-align: center;
+        margin-top: 9em;
+      }
+      .relative{
+        position: relative;
+      }
+      .absolute{
+        position: absolute;
+        bottom: -70px;
+        /* border-radius: 1.5rem; */
+        border-radius: 9999px;
+         border: none;
+        padding: 10px;
+        /* left: -99px; */
+        /* left: 2.5px; */
+        left: -2em;
+        /* background-color:rgb(255, 116, 38); */
+        transform:translate(-200%,38%);
+      }
+      .other-features{
+        flex-direction: row;
+        padding: 10px;
+        background-color: #FDF8EE;
+      }
+      .time-1{
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        /* gap: 2.5em; */
+      }
+      .senior-icon{
+        /* gap: 5.5em; */
+        gap: 2.5em;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /* .senior-features{
+        text-align: center;
+      } */
+       .testimonial{
+        flex-direction: row;
+        justify-content: center;
+        gap: 19px;
+       }
+      html{
+        overflow: visible;
+      }
+      .teachers{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+      }
+      .plastic{
+        position: absolute;
+        transform: translate(590%,-98%);
+        /* bottom: 22em; */
+        /* bottom: 3px; */
+        padding: 10px;
+        display: flex;
+        justify-content: right;
+        background-color: #FF7426;
+        border-radius: 10px;
+        left: 19em;
+        overflow: hidden;
+        border: none;
+        /* top: 10px; */
+        /* top: -1em; */
+      }
+      .ya{
+        position: relative;
+      }
+      /* .input-flex-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      } */
+      .another-input{
+        text-align: center;
+        margin-top: 3em;
+        padding: 35px;
+        margin-left: 13px;
+        color: white;
+        margin-right: 13px;
+        border-radius: 10px;
+        background-color: #4D2C5E;
+      }
+      .input-flex-2{
+        align-items: center;
+        flex-direction: row;
+        justify-content: left;
+        border-radius: 10px;
+      }
+      .general{
+        flex-direction: row;
+        justify-content: center;
+        gap: 15em;
+        padding: 10px;
+      }
+      .links{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+      }
+      
+}

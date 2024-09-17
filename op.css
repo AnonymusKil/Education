@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+   background-color: #F2F4F7;
+height: 8vh;
+margin: auto 0;
+padding: 2%;
+} 
+.nav{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+nav input[type="checkbox"] {
+  display: none;
+}
+.nav input[type="checkbox"]:checked ~ .navbar .navitems {
+  display: block;
+  transition: all 0.2s ease-out;
+}
+
+.navbar a{
+  display: none;
+   padding: 5% 2%;
+  color: rgb(46, 46, 46);
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+  white-space: nowrap;
+  
+}
+.navbar{
+   margin-top: 10%;
+  position: absolute;
+  width: 100%;
+  background-color: #F2F4F7;
+  /* background-color: blue; */
+  transition: all 0.2s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5%;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 2%;
+}
+.nav-toggle {
+  position: relative;
+  width: 5vw;
+  height: .7vw;
+  background-color: #fff;
+  display: block;
+  transition: all 0.2s ease-out;
+}
+.nav-toggle::before,
+.nav-toggle::after {
+  content: "";
+  position: absolute;
+  width: 5vw;
+  height: 0.7vw;
+  background-color: #fff;
+  animation: toggle-animation 0.5s ease-out;
+}
+.nav-toggle::before {
+  top: -8px;
+  transition: all 0.2s ease-out;
+}
+.nav-toggle::after {
+  top: 8px;
+  transition: all 0.2s ease-out;
+}
+nav input[type="checkbox"]:checked ~ .nav-toggle-label {
+  background-color: #333;
+}
+
+
+nav input[type="checkbox"]:checked ~ .nav-toggle-label .nav-toggle {
+  background-color: transparent;
+  transition: all 0.2s ease-out;
+}
+nav input[type="checkbox"]:checked ~ .nav-toggle-label .nav-toggle::before {
+  top: 0;
+  transform: rotate(45deg);
+  transition: all 0.2s ease-out;
+}
+nav input[type="checkbox"]:checked ~ .nav-toggle-label .nav-toggle::after {
+  top: 0;
+  transform: rotate(-45deg);
+  transition: all 0.2s ease-out;
+}
