@@ -24,7 +24,7 @@
     transition: all 0.2s ease-out;
   }
   html{
-    font-family: 'Poppins';
+    font-family: 'Poppins' 'Roboto Static';
   }
   
   .navbar a{
