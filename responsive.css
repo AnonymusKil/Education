@@ -85,7 +85,7 @@
       }
       .glass{
         position: absolute;
-        transform: translate(146%,29%);
+        transform: translate(156%,-10%);
         bottom: 22em;
         left: 19em;
         overflow: hidden;
@@ -176,7 +176,7 @@
         justify-content: right;
         background-color: #FF7426;
         border-radius: 10px;
-        left: 19em;
+        left: 24em;
         overflow: hidden;
         border: none;
         /* top: 10px; */
